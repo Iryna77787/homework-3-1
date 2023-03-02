@@ -292,6 +292,7 @@ color: var(--primary-text-color);
 }
 
 .team-description {
+    border-top: none;
     padding: 32px 16px;
 }
 
