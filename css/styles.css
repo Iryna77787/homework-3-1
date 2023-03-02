@@ -46,7 +46,7 @@ h1, h2, h3, h4, p {
 img {
     display: block;
     height: auto;
-    width: 100px;
+    width: 100%;
 }
 
 button {
@@ -76,7 +76,15 @@ button {
     overflow: hidden;
 }
 
-
+.top-title {
+    margin-bottom: 72px;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--primary-text-color);
+}
 /* =================== HEADER ================ */
 .header {
     padding-top: 24px;
@@ -244,15 +252,6 @@ color: var(--primary-text-color);
 .product {
     padding-bottom: 120px;
 }
-.product-title {
-    margin-bottom: 72px;
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: var(--primary-text-color);
-}
 
 .product-menu {
     display: flex;
@@ -268,16 +267,6 @@ color: var(--primary-text-color);
     padding-bottom: 120px;
     width: 1440px;
     background-color: var(--team-acent-color);
-}
-
-.team-title {
-    margin-bottom: 72px;
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: var(--primary-text-color);
 }
 
 .team-menu {
@@ -397,7 +386,7 @@ color: var(--primary-text-color);
 }
 
 .footer-logo {
-    font-family: 'Raleway';
+    font-family: var(--secondary-font);
     font-weight: 800;
     font-size: 18px;
     line-height: 1.16;
