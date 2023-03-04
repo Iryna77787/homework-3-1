@@ -57,7 +57,7 @@ button {
 }
 
 .container {
-    width: 1158px;
+    max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -106,8 +106,9 @@ button {
 
 .top-menu {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     flex-wrap: wrap;
+    gap: 48px 24px;
 }
 
 .section {
@@ -328,10 +329,6 @@ button {
 .portfolio-item {
     
     flex-basis: calc((100% - 48px) / 3);
-}
-
-.portfolio-item:not(:nth-last-child(-n + 3)) {
-    margin-bottom: 48px; 
 }
 
 .portfolio-description {
