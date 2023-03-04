@@ -21,7 +21,6 @@ body {
 
 .list {
     list-style: none;
-
 }
 
 ul {
@@ -114,7 +113,9 @@ button {
 .section {
     padding: 120px 0;
 }
+
 /* =================== HEADER ================ */
+
 .header {
     padding-top: 24px;
     padding-bottom: 24px;
